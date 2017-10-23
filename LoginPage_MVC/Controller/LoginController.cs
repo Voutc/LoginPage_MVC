@@ -8,5 +8,15 @@ namespace LoginPage_MVC.Controller
 {
     class LoginController
     {
+        public Boolean ValidatePassword(string password)
+        {
+
+            return false;
+        }
+        public Boolean ValidateUsername(string username)
+        {
+
+            return false;
+        }
     }
 }

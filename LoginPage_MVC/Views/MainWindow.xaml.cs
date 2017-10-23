@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LoginPage_MVC.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,11 @@ namespace LoginPage_MVC
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            
+            LoginController logCntrler = new LoginController();
+            if(logCntrler.ValidatePassword(txtPassword.Text) || logCntrler.ValidateUsername(txtUsername.Text))
+                {
+                    
+                }
         }
     }
 }
