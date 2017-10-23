@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginPage_MVC"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Welcome to my Login page" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="lblUsername" Content="Username" HorizontalAlignment="Left" Margin="26,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.155,0.986"/>
+        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="26,174,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="132,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="132,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnLogin" Content="Login In" HorizontalAlignment="Left" Margin="114,268,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="345,274,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
